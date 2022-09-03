@@ -19,7 +19,7 @@ nav {
 header nav.navbar ul li.nav-item a{
     color: white !important;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 21px;
 }
 
 nav a.navbar-brand img{
@@ -66,4 +66,18 @@ section.supporting-section {
 /* decor */
 span.html-tags {
     color: #b72633;
+}
+
+.btn-primary {
+    border: 1px solid transparent;
+    background-color: #3A827F;
+    color: #C4E3E2;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+}
+
+.btn-primary:hover {
+    background-color: #C4E3E2;
+    color: #3A827F;
+    border: 1px solid transparent;
 }
