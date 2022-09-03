@@ -1,0 +1,69 @@
+/* 
+base: #92C4C2
+dark to light
+darkest: #3A827F
+dark: #5E9C9A
+lightest: #C4E3E2
+light: #EDF8F8 
+#dfdfdf
+*/
+body {
+    background-color: #92C4C2 !important;
+    font-family: 'Play', sans-serif;
+}
+
+nav {
+    background-color: #92C4C2 !important;
+}
+
+header nav.navbar ul li.nav-item a{
+    color: white !important;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+nav a.navbar-brand img{
+    width: 30px;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* main section.introduction div.message h2.content {
+    font-family: 'Play', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: #3A827F;
+} */
+
+main section.introduction div.message h2.name {
+    font-family: 'Play', sans-serif;
+    font-size: 75px;
+    font-weight: 600;
+    color: #C4E3E2;
+}
+
+main section.introduction div.message h2.name span {
+    color: #5E9C9A;
+    font-size: 75px;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+main section.introduction div.message span {
+    font-family: 'VT323', monospace;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+main section.introduction img.section-image{
+    width: 350px;
+}
+
+section.supporting-section {
+    background-color: white;
+}
+
+/* decor */
+span.html-tags {
+    color: #b72633;
+}
