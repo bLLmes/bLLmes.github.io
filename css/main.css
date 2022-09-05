@@ -28,24 +28,21 @@ nav a.navbar-brand img{
     border-radius: 50%;
 }
 
-/* main section.introduction div.message h2.content {
-    font-family: 'Play', sans-serif;
-    font-size: 40px;
-    font-weight: 500;
-    color: #3A827F;
-} */
+main section.introduction div.message h2.name,
+main section.introduction div.message h2.name span {
+    font-size: 75px;
+    font-weight: 600;
+}
 
 main section.introduction div.message h2.name {
     font-family: 'Play', sans-serif;
-    font-size: 75px;
-    font-weight: 600;
-    color: #C4E3E2;
+    color: #5E9C9A;
+    letter-spacing: .5px;
+    word-spacing: 1px;
 }
 
 main section.introduction div.message h2.name span {
-    color: #5E9C9A;
-    font-size: 75px;
-    font-weight: 600;
+    color: #EDF8F8;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -63,21 +60,70 @@ section.supporting-section {
     background-color: white;
 }
 
+main section div.row div.img-section h5 {
+    font-size: 21px;
+    font-weight: 500;
+    color: #092324;
+}
+
+main section div.row div.img-section h5 span {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 33px;
+}
+
+main section.supporting-section div.img-section img {
+    width: 350px;
+}
+
+main section.supporting-section div div.message h5 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 450;
+    line-height: 20px;
+    word-spacing: 3px;
+    letter-spacing: .8px;
+
+}
+
+footer {
+    background-color: #92C4C2;
+}
+
 /* decor */
 span.html-tags {
     color: #b72633;
 }
 
 .btn-primary {
-    border: 1px solid transparent;
-    background-color: #3A827F;
-    color: #C4E3E2;
+    border: 2.5px solid #3A827F;
+    background-color: transparent;
+    color: #3A827F;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 18px;
+    border-radius: 30px;
+    padding: 10px 60px;
+    margin-right: 10px;
+    font-weight: 550;
 }
 
-.btn-primary:hover {
-    background-color: #C4E3E2;
-    color: #3A827F;
+.btn-blurred {
+    border: 0px !important;
+    color: #b0d1c2 !important;
+    font-size: 32px !important;
+    padding-right: 0px !important;
+}
+
+.btn-blurred:hover {
+    border: 0px !important;
+    color: #b0d1c2 !important;
+    font-size: 32px !important;
+    background-color: transparent !important;
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+    background-color: #3A827F;
+    color: white;
     border: 1px solid transparent;
 }
