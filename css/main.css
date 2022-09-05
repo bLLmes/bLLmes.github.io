@@ -111,7 +111,9 @@ span.html-tags {
     border: 0px !important;
     color: #b0d1c2 !important;
     font-size: 32px !important;
-    padding-right: 0px !important;
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+    border-radius: 0px;
 }
 
 .btn-blurred:hover {
